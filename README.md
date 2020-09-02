@@ -25,6 +25,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^api/(.*)$ /index.php
 </IfModule>
 ```   
++ ```git clone https://github.com/SpawNBK/task_tracker.git```
 + Отредактировать файл настроек config/Db.php для доступа к MySQL
 ```
     private $host = "localhost"; //адрес хоста
