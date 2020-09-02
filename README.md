@@ -2,7 +2,7 @@
 
 author: Бизяев Сергей   
 email: SpawNBK@yandex.ru  
-version: 1  
+version: 1.0.0   
 ---
 
 
@@ -87,7 +87,8 @@ API испозьует HTTP статус коды для индикации со
      "message": "params password, email could not be blank"
 }
 ```
-### API авторизация   
+### API авторизация  
+
 #####:POST login
 Для авторизации отправляются данные пользователя на адрес   
 ```
@@ -442,7 +443,7 @@ curl http://site/api/v1/tasks/ \
   
 ##### parameters   
  *title*   
- *content*
+ *content*   
  *enddate*   - не обязательный. Формат, желательно, dd-mm-yyyy
       
 ```
@@ -591,7 +592,7 @@ curl http://site/api/v1/tasks/:id/workers \
 ---  
 
 ##### :PATCH /tasks/:id
-Обновляет данные задания по ID 
+Обновляет данные задания по ID    
 Можно использовать 1 или несколько параметров        
 
 ##### parameters   
